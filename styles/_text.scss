@@ -74,7 +74,7 @@ h3 {
     flex-direction: column;
 }
 
-.gik {
+.title-one {
     color: #111;
     font-family: Mulish;
     font-size: 16px;
@@ -83,7 +83,7 @@ h3 {
     line-height: normal;
 }
 
-.giktxt {
+.title-one-txt {
     color: #111;
     font-family: Mulish;
     font-size: 16px;
@@ -91,4 +91,13 @@ h3 {
     font-weight: 400;
     line-height: 26px;
     opacity: 0.6;
+}
+
+.best-navigation {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
