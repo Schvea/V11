@@ -273,8 +273,15 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-transform: translate(60px, 40px);
-          transform: translate(60px, 40px);
+  -webkit-transform: translate(20px, 40px);
+          transform: translate(20px, 40px);
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
 }
 
 .creative {
@@ -286,8 +293,15 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-transform: translate(60px, 40px);
-          transform: translate(60px, 40px);
+  -webkit-transform: translate(20px, 40px);
+          transform: translate(20px, 40px);
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
 }
 
 .firstending {
@@ -303,21 +317,12 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: #111;
   font-family: Mulish;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
-
-.dates {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .uikit {
@@ -331,7 +336,16 @@ h3 {
           flex-direction: column;
 }
 
-.generaltxt {
+.title-one {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-one-txt {
   color: #111;
   font-family: Mulish;
   font-size: 16px;
@@ -341,7 +355,58 @@ h3 {
   opacity: 0.6;
 }
 
+.secondending {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+}
+
+.gentemplate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 190px;
+  width: 100%;
+  -webkit-transform: translatex(455%);
+          transform: translatex(455%);
+}
+
+.title-two {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-two-txt {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.6;
+}
+
+.best-navigation {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+}
+
 body {
   max-width: 1500px;
   width: 100%;
+  min-height: 100vh;
 }
