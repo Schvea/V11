@@ -231,6 +231,15 @@
           flex-direction: column;
 }
 
+h3 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .txtbelowimg {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,6 +306,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .dates {
@@ -306,6 +321,6 @@
 }
 
 body {
-  max-width: 1000px;
+  max-width: 1500px;
   width: 100%;
 }

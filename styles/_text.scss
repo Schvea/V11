@@ -1,3 +1,5 @@
+$main-txt-color: #111;
+
 .personinfo {
     max-width: 550px;
     width: 100%;
@@ -7,12 +9,21 @@
     flex-direction: column;
 }
 
+h3 {
+    color: $main-txt-color;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .txtbelowimg {
     display: flex;
     justify-content: space-evenly;
     border-bottom: solid;
     border-color: #D8D8D8;
-    ;
+
 }
 
 .welove {
@@ -36,15 +47,23 @@
     flex-direction: column;
     transform: translate(60px, 40px);
 }
-.firstending{
+
+.firstending {
     display: flex;
     justify-content: space-evenly;
 }
-.site-of-the-day{
+
+.site-of-the-day {
     display: flex;
     justify-content: center;
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.dates{
+.dates {
     display: flex;
 }
