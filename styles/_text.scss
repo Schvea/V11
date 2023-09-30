@@ -109,6 +109,7 @@ h3 {
     display: flex;
     border-bottom: solid;
     border-color: #D8D8D8;
+    transform: translatey(30%);
 }
 
 .gentemplate {
@@ -155,7 +156,7 @@ h3 {
 }
 
 .cda {
-    transform: translatex(15%);
+    transform: translate(15%, 140%);
 }
 
 .site-of-the-day-two {
@@ -166,7 +167,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    transform: translate(43%, -180%);
+    transform: translate(43%, -10%);
 }
 
 .uikit-dupe {
@@ -174,7 +175,7 @@ h3 {
     flex-direction: column;
     max-width: 190px;
     width: 100%;
-    transform: translate(455%, -50%);
+    transform: translate(455%, -30%);
 }
 
 .title-three {
@@ -210,7 +211,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    transform: translate(43%, -150%);
+    transform: translate(43%, -120%);
 }
 
 .gentemplatetwo {
@@ -218,7 +219,7 @@ h3 {
     flex-direction: column;
     max-width: 190px;
     width: 100%;
-    transform: translate(453%, -60%);
+    transform: translate(453%, -50%);
 }
 
 .title-four {
