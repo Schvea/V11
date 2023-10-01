@@ -648,8 +648,24 @@ h3 {
           flex-direction: column;
 }
 
-.list {
-  word-spacing: 50px;
+.dates {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  opacity: 0.5;
+  min-width: 140px;
+}
+
+.names {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 .txt-under-girl {
@@ -662,6 +678,8 @@ h3 {
   font-weight: 400;
   line-height: 26px;
   opacity: 0.8;
+  -webkit-transform: translatex(7%);
+          transform: translatex(7%);
 }
 
 .footer-second-page {
@@ -673,6 +691,8 @@ h3 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-transform: translatey(150%);
+          transform: translatey(150%);
 }
 
 .projects-two {
@@ -682,6 +702,8 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  -webkit-transform: translate(300%, 50%);
+          transform: translate(300%, 50%);
 }
 
 .contacts-two {
@@ -690,17 +712,38 @@ h3 {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
+  -webkit-transform: translate(200%, 50%);
+          transform: translate(200%, 50%);
 }
 
 .socialmedia-two {
   width: 95px;
   height: 15px;
+  -webkit-transform: translate(100%, 350%);
+          transform: translate(100%, 350%);
+}
+
+.logo-two {
+  width: 90px;
+  height: 19px;
+  -webkit-transform: translate(-110%, 300%);
+          transform: translate(-110%, 300%);
 }
 
 body {
   max-width: 1500px;
   width: 100%;
   min-height: 100vh;
+}
+
+a {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
 }
 
 .body-projects {
@@ -740,27 +783,51 @@ header {
   height: 100%;
 }
 
-.firstending {
-  /* display: flex;
-   justify-content: space-evenly;*/
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translate(50%, 18%);
+          transform: translate(50%, 18%);
 }
 
-/*.dates {
-    line-height: 1200%;
-    transform: translate(90%, -123%);
-    color: #111;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+.dates {
+  text-align: left;
+}
 
-}*/
-/*.list{
+.names {
+  text-align: left;
+}
 
-}*/
+.first-part {
+  min-height: 600px;
+  height: 100%;
+  -webkit-transform: translatey(20%);
+          transform: translatey(20%);
+}
+
 .girl-walk {
-  max-width: 1110px;
+  max-width: 1500px;
   width: 100%;
   max-height: 660px;
   height: 100%;
+  -webkit-transform: translatex(7%);
+          transform: translatex(7%);
+}
+
+.pictures-ending {
+  max-width: 1110px;
+  width: 100%;
+  max-height: 400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transform: translate(7%, 20%);
+          transform: translate(7%, 20%);
 }

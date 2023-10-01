@@ -8,6 +8,16 @@ body {
     min-height: 100vh;
 }
 
+a {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
 .body-projects {
     display: flex;
     flex-wrap: wrap;
@@ -36,31 +46,44 @@ header {
     height: 100%;
 }
 
-.firstending {
-   /* display: flex;
-    justify-content: space-evenly;*/
+.firstending {}
+
+//page two
+aside {
+    display: flex;
+    align-items: center;
+    transform: translate(50%, 18%);
+
 }
 
-/*.dates {
-    line-height: 1200%;
-    transform: translate(90%, -123%);
-    color: #111;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+.dates {
+    text-align: left
+}
 
-}*/
+.names {
+    text-align: left;
+}
 
-/*.list{
+.first-part {
+    min-height: 600px;
+    height: 100%;
+    transform: translatey(20%);
+}
 
-}*/
 .girl-walk {
-    max-width: 1110px;
+    max-width: 1500px;
     width: 100%;
     max-height: 660px;
     height: 100%;
+    transform: translatex(7%);
 }
 
 .pictures-ending {
+    max-width: 1110px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    transform: translate(7%, 20%);
 }
