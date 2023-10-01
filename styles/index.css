@@ -215,6 +215,14 @@
   grid-column: 14;
 }
 
+h1 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 h3 {
   color: #111;
   font-family: Mulish;
@@ -605,11 +613,53 @@ h3 {
           transform: translatey(350%);
 }
 
-@imp body {
+.page-two-header {
+  color: #111;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  max-width: 450px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-two-txt {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
   max-width: 1500px;
   width: 100%;
   min-height: 100vh;
 }
+
+.body-projects {
+  max-width: 1500px;
+  width: 100%;
+  min-height: 100vh;
+}
+
 footer {
   min-height: 100px;
   height: 100%;
