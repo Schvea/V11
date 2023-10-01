@@ -1,7 +1,14 @@
 @import 'grid';
 @import 'text';
+@import 'projects'
 
 body {
+    max-width: 1500px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.body-projects {
     max-width: 1500px;
     width: 100%;
     min-height: 100vh;

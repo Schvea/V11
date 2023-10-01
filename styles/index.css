@@ -605,12 +605,11 @@ h3 {
           transform: translatey(350%);
 }
 
-body {
+@imp body {
   max-width: 1500px;
   width: 100%;
   min-height: 100vh;
 }
-
 footer {
   min-height: 100px;
   height: 100%;
