@@ -39,7 +39,9 @@
     opacity: 0.8;
 }
 
-.footer-second-page{
+.footer-second-page {
+    max-width: 1500px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
 }

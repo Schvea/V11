@@ -665,6 +665,8 @@ h3 {
 }
 
 .footer-second-page {
+  max-width: 1500px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -739,12 +741,8 @@ header {
 }
 
 .firstending {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  /* display: flex;
+   justify-content: space-evenly;*/
 }
 
 /*.dates {
