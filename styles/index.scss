@@ -9,6 +9,11 @@ body {
 }
 
 .body-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body-projects {
     max-width: 1500px;
     width: 100%;
     min-height: 100vh;
@@ -45,4 +50,12 @@ header {
     font-style: normal;
     font-weight: 400;
 
+}
+
+/*.list{
+
+}*/
+.girl-walk {
+    max-width: 1110px;
+    width: 100%;
 }
