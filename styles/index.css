@@ -652,6 +652,49 @@ h3 {
   word-spacing: 50px;
 }
 
+.txt-under-girl {
+  max-width: 1110px;
+  width: 100%;
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.footer-second-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.projects-two {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contacts-two {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.socialmedia-two {
+  width: 95px;
+  height: 15px;
+}
+
 body {
   max-width: 1500px;
   width: 100%;
@@ -704,21 +747,22 @@ header {
           justify-content: space-evenly;
 }
 
-.dates {
-  line-height: 1200%;
-  -webkit-transform: translate(90%, -123%);
-          transform: translate(90%, -123%);
-  color: #111;
-  font-family: Mulish;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-}
+/*.dates {
+    line-height: 1200%;
+    transform: translate(90%, -123%);
+    color: #111;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 
+}*/
 /*.list{
 
 }*/
 .girl-walk {
   max-width: 1110px;
   width: 100%;
+  max-height: 660px;
+  height: 100%;
 }
