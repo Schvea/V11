@@ -1,18 +1,70 @@
 $main-txt-color: #111;
 
-.personinfo {
-    max-width: 550px;
-    width: 100%;
-    font-size: 40px;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-}
 
 h3 {
     color: $main-txt-color;
     font-family: Mulish;
     font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.genesis {
+    width: 90.132px;
+    height: 19.344px;
+    fill: #111;
+    transform: translate(-70%, 50%);
+}
+
+.personinfo {
+    max-width: 550px;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    transform: translate(20%, 40%);
+}
+
+.star {
+    color: #4A4FF2;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translate(9%, 400%);
+}
+
+.bluetxt {
+    color: #4A4FF2;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.first-projects {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translatex(450%);
+}
+
+.first-contact {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -32,6 +84,12 @@ h3 {
     font-size: 40px;
     display: flex;
     flex-direction: column;
+    color: #111;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
 }
 
 .multimedia {
@@ -61,12 +119,6 @@ h3 {
     line-height: normal;
     opacity: 0.6;
 
-}
-
-
-.firstending {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .site-of-the-day {
@@ -156,7 +208,7 @@ h3 {
 }
 
 .cda {
-    transform: translate(15%, 140%);
+    transform: translate(15%, 250%);
 }
 
 .site-of-the-day-two {
@@ -167,7 +219,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    transform: translate(43%, -10%);
+    transform: translate(43%, 120%);
 }
 
 .uikit-dupe {
@@ -175,7 +227,7 @@ h3 {
     flex-direction: column;
     max-width: 190px;
     width: 100%;
-    transform: translate(455%, -30%);
+    transform: translate(455%, -15%);
 }
 
 .title-three {
@@ -212,7 +264,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    transform: translate(43%, -120%);
+    transform: translate(43%, 70%);
 }
 
 .gentemplatetwo {
@@ -220,7 +272,7 @@ h3 {
     flex-direction: column;
     max-width: 190px;
     width: 100%;
-    transform: translate(453%, -50%);
+    transform: translate(453%, -20%);
 }
 
 .title-four {
@@ -242,6 +294,31 @@ h3 {
     line-height: 26px;
     opacity: 0.6;
 }
-.logo{
-    transform: translatey(100%);
+
+
+.projects {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translate(500%, 50%);
+
+}
+
+.contact {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translate(200%, 50%);
+}
+
+.socialmedia {
+    width: 95px;
+    height: 15px;
+    transform: translatey(350%);
 }

@@ -6,3 +6,36 @@ body {
     width: 100%;
     min-height: 100vh;
 }
+
+footer {
+    min-height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.beginning {
+    min-height: 500px;
+    height: 100%;
+}
+
+.firstending {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dates {
+    line-height: 1200%;
+    transform: translate(90%, -123%);
+    color: #111;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
