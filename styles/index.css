@@ -730,6 +730,11 @@ h3 {
           transform: translate(-110%, 300%);
 }
 
+.genesis-site-two {
+  width: 90.132px;
+  height: 19.344px;
+}
+
 body {
   max-width: 1500px;
   width: 100%;
@@ -830,4 +835,20 @@ aside {
       justify-content: space-around;
   -webkit-transform: translate(7%, 20%);
           transform: translate(7%, 20%);
+}
+
+.projects-site-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate(1100%, 100%);
+          transform: translate(1100%, 100%);
+}
+
+.genesis-site-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translatex(100%);
+          transform: translatex(100%);
 }
