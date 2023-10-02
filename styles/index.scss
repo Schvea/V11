@@ -20,16 +20,6 @@ a {
     border: none;
 }
 
-.body-projects {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.body-projects {
-    max-width: 1500px;
-    width: 100%;
-    min-height: 100vh;
-}
 
 footer {
     min-height: 100px;
@@ -51,6 +41,17 @@ header {
 .firstending {}
 
 //page two
+.body-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body-projects {
+    max-width: 1500px;
+    width: 100%;
+    min-height: 100vh;
+}
+
 aside {
     display: flex;
     align-items: center;
@@ -99,3 +100,24 @@ aside {
     display: flex;
     transform: translatex(100%);
 }
+
+//contact
+
+.body-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introduction {
+    min-height: 600px;
+    height: 100%;
+    transform: translate(-20%, 20%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    transform: translate(20%, 20%);
+}
+
+.submit {}
