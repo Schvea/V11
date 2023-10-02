@@ -850,6 +850,40 @@ h3 {
           transform: translate(10%);
 }
 
+.logo-three {
+  -webkit-transform: translate(-90%, 20%);
+          transform: translate(-90%, 20%);
+}
+
+.projects-three {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  -webkit-transform: translate(400%, 65%);
+          transform: translate(400%, 65%);
+}
+
+.contacts-three {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  -webkit-transform: translate(320%, 65%);
+          transform: translate(320%, 65%);
+}
+
+.socialmedia-three {
+  width: 95px;
+  height: 15px;
+  -webkit-transform: translate(150%, 450%);
+          transform: translate(150%, 450%);
+}
+
 body {
   max-width: 1500px;
   width: 100%;
@@ -993,4 +1027,15 @@ aside {
           flex-direction: column;
   -webkit-transform: translate(20%, 20%);
           transform: translate(20%, 20%);
+}
+
+.footer-third-page {
+  max-width: 1500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
