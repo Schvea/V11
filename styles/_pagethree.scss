@@ -22,16 +22,59 @@
     height: 56px;
 }
 
-.name {
+.img-map {
+    max-width: 1110px;
+    width: 100%;
+    max-height: 570px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.logo-three {
+    margin-right: 40%;
+}
+
+.projects-three {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 3%;
+}
+
+.contacts-three {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 3%;
+}
+
+.socialmedia-three {
+    width: 95px;
+    height: 15px;
+    margin-top: 40px;
+
+}
+
+.ny {
+    display: flex;
+    max-width: 1360px;
+    width: 100%;
+    max-height: 1375px;
+    height: 100%;
     color: #111;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    opacity: 0.6;
-    line-height: 60px;
-    transform: translatex(-470%);
+    line-height: 70px;
+    flex-direction: column;
 }
 
 .line {
@@ -42,36 +85,12 @@
     background: #D8D8D8;
 }
 
-.email {
-    color: #111;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    opacity: 0.6;
-    line-height: 60px;
-    transform: translatex(-520%);
-}
-
 .line-two {
     width: 475px;
     height: 1px;
     border: 1px solid #979797;
     opacity: 0.3;
     background: #D8D8D8;
-}
-
-.message {
-    color: #111;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    opacity: 0.6;
-    line-height: 60px;
-    transform: translatex(-300%);
 }
 
 .line-three {
@@ -86,50 +105,25 @@
     width: 125px;
     height: 50px;
     background: #4A4FF2;
+    border: none;
+    color: #FFF;
+    text-align: center;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    color: #FFF;
-    border: none;
-    transform: translate(-140%, 90%);
+    margin-top: 50px;
 }
 
-.map {
-    max-width: 1110px;
-    width: 100%;
-    max-height: 570px;
-    height: 100%;
-    transform: translate(10%);
+.fname {
+    opacity: 0.6;
 }
 
-.logo-three {
-    transform: translate(-90%, 20%);
+.lname {
+    opacity: 0.6;
 }
 
-.projects-three {
-    color: #111;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    transform: translate(400%, 65%);
-}
-
-.contacts-three {
-    color: #111;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    transform: translate(320%, 65%);
-}
-
-.socialmedia-three {
-    width: 95px;
-    height: 15px;
-    transform: translate(150%, 450%);
+.message {
+    opacity: 0.6;
 }
